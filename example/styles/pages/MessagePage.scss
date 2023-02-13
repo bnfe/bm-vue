@@ -1,0 +1,15 @@
+@import "../core/func";
+
+.message-page {
+  .bm-panel__body {
+    padding: r(15);
+  }
+
+  .bm-message {
+    margin-bottom: r(15);
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}

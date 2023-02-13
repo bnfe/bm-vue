@@ -1,0 +1,90 @@
+@import '../core/func';
+
+.popper-page {
+  .bm-popper {
+    display: inline-block;
+  }
+  @at-root {
+    .custom-arrow-content {
+      padding: r(6) r(12);
+      background: #ddd;
+      font-size: r(12);
+      width: r(100);
+      height: r(50);
+    }
+
+    // 自定义箭头
+    .custom-arrow-content {
+      .bm-popper__arrow {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        border-style: solid;
+      }
+
+      &[x-placement^='top'] {
+        margin-bottom: r(10);
+
+        .bm-popper__arrow {
+          bottom: r(-4);
+          border-width: r(4) r(4) 0;
+          border-top-color: #ddd;
+        }
+      }
+
+      &[x-placement^='right'] {
+        margin-left: r(10);
+
+        .bm-popper__arrow {
+          left: r(-4);
+          border-width: r(4) r(4) r(4) 0;
+          border-right-color: #ddd;
+        }
+      }
+
+      &[x-placement^='bottom'] {
+        margin-top: r(10);
+
+        .bm-popper__arrow {
+          top: r(-4);
+          border-width: 0 r(4) r(4) r(4);
+          border-bottom-color: #ddd;
+        }
+      }
+
+      &[x-placement^='left'] {
+        margin-right: r(10);
+
+        .bm-popper__arrow {
+          right: r(-4);
+          border-width: r(4) 0 r(4) r(4);
+          border-left-color: #ddd;
+        }
+      }
+    }
+  }
+
+  // 显示方向
+  .direction-demo {
+    .bm-popper {
+      margin-right: r(10);
+      margin-bottom: r(10);
+    }
+
+    @at-root {
+      .bm-popper__wrapper {
+        z-index: 1500;
+      }
+    }
+
+    .bm-cell__content {
+      padding: r(15) 0;
+      justify-content: center;
+    }
+
+    .bm-button {
+      width: r(60);
+    }
+  }
+}

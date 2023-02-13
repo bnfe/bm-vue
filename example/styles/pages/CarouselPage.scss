@@ -1,0 +1,28 @@
+@import "../core/func";
+
+.carousel-page {
+  .carousel-item-pic {
+    img {
+      width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+    .test {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .controls {
+    display: flex;
+    padding: r(10) r(15);
+
+    .bm-button {
+      margin-right: r(10);
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+}

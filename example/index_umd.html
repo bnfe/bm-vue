@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <!-- import CSS -->
+    <link rel="stylesheet" href="../release/bm-vue.default.css" />
+    <!-- import JS -->
+    <script src="//cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+    <script src="../release/bm-vue.umd.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <bm-button theme="primary" @click="showAlert">普通按钮</bm-button>
+      <bm-slider :default-value="20"></bm-slider>
+    </div>
+  </body>
+  <script>
+    new Vue({
+      el: "#app",
+      data() {
+        return {
+          loading: true,
+        };
+      },
+      methods: {
+        showAlert() {
+          this.$bmAlert("这是一个Alert框。");
+        },
+      },
+    });
+  </script>
+</html>

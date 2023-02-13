@@ -1,0 +1,41 @@
+@import "../core/func";
+
+.index-page {
+  .brand {
+    padding: r(30) r(30) 0 r(30);
+    text-align: center;
+
+    &-title {
+      font-size: r(30);
+    }
+
+    &-description {
+      font-size: r(14);
+    }
+  }
+
+  main {
+    padding: r(15);
+  }
+
+  .bm-panel-body {
+    border-radius: r(2);
+
+    &:after {
+      display: none;
+    }
+  }
+
+  .bm-cell {
+
+    &:first-of-type {
+      &:after {
+        display: none;
+      }
+    }
+  }
+}
+
+.bm-markdown-doc {
+  display: none;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <title>巴奴移动端组件库</title>
+    <script>
+      var CONFIG = {
+        pathname: "<%= htmlWebpackPlugin.options.pathname %>",
+      };
+      if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) {
+        window.location.href = CONFIG.pathname + "demo.html";
+      }
+    </script>
+  </head>
+
+  <body class="bm-vue-site">
+    <div id="app"></div>
+  </body>
+</html>

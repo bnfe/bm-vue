@@ -1,0 +1,9 @@
+.calendar-page {
+  .bm-panel-body { 
+    position: static;
+  }
+  .bm-calendar__month {
+    overflow: auto;
+    max-height: 48vh;
+  }
+}

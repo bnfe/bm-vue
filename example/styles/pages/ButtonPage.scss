@@ -1,0 +1,14 @@
+@import "../core/func";
+
+.button-page {
+  .bm-panel__body {
+    overflow: hidden;
+    padding: r(10) r(10) 0 r(10);
+    background: #fff;
+  }
+
+  .bm-button {
+    margin-bottom: r(10);
+    margin-right: r(10);
+  }
+}

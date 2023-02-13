@@ -1,0 +1,9 @@
+// https://stackoverflow.com/questions/67640614/laravel-mix-bootstrap-deprecation-warning-using-for-division-is-deprecated
+
+// 主题色变量
+$--color-primary: #6a1014;
+
+// 字体路径变量
+$--font-path: "~element-ui/lib/theme-chalk/fonts";
+
+@import "~element-ui/packages/theme-chalk/src/index";
