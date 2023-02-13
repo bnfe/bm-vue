@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/bnfe/bm-vue/issues"
   },
-  "main": "lib/index.js",
+  "main": "lib/bm-vue.common.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./build/webpack.dev.conf.js",
     "start": "cross-env NODE_ENV=development webpack-dev-server --config ./build/webpack.dev.conf.js",
@@ -38,9 +38,8 @@
     "build:lib": "cross-env NODE_ENV=production webpack --config ./build/webpack.prod.conf.js",
     "build:theme": "cross-env NODE_ENV=production webpack --config ./build/webpack.theme.conf.js",
     "build:style": "cross-env NODE_ENV=production webpack --config ./build/webpack.style.conf.js",
-    "build:copy": "node ./script/copy.js",
-    "build:release": "cp -r README.md release && cp -r src release && cp -r styles release",
-    "build:all": "npm run clean && npm run build:umd && npm run build:lib && npm run build:style && npm run build:theme && npm run build:copy && npm run build:release",
+    "build:release": "cp -r src release && cp -r styles release && cp -r README.md release && cp -r package.json release",
+    "build:all": "npm run clean && npm run build:umd && npm run build:lib && npm run build:style && npm run build:theme && npm run build:release",
     "analyze": "cross-env NODE_ENV=production npm_config_report=true npm run build:all",
     "precommit": "npm run lint",
     "commitmsg": "commitlint -e $GIT_PARAMS",
