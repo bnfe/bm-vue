@@ -19,7 +19,7 @@
           }"
     >
       <img
-        src="https://raw.githubusercontent.com/bnfe/bm-vue/main/site/styles/images/banu.png"
+        src="https://raw.githubusercontent.com/bnfe/bm-vue/main/site/styles/images/index.png"
         alt=""
       />
     </div>
@@ -73,7 +73,7 @@ scopedSlots 用来覆盖默认样式，定义的会覆盖，不定义的默认�
       >
         <img
           style="width:24px;height:24px"
-          src="https://raw.githubusercontent.com/bnfe/bm-vue/main/site/styles/images/banu.png"
+          src="https://raw.githubusercontent.com/bnfe/bm-vue/main/site/styles/images/index.png"
           alt=""
         />
       </div>

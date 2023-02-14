@@ -29,7 +29,7 @@
 <bm-cell title="标题文字">
   <img
     style="width:24px;height:24px"
-    src="https://raw.githubusercontent.com/bnfe/bm-vue/main/site/styles/images/banu.png"
+    src="https://raw.githubusercontent.com/bnfe/bm-vue/main/site/styles/images/index.png"
     alt=""
     slot="icon"
   />
@@ -72,7 +72,7 @@
   <div slot="description">描述文字</div>
   <img
     style="width:24px;height:24px"
-    src="https://raw.githubusercontent.com/bnfe/bm-vue/main/site/styles/images/banu.png"
+    src="https://raw.githubusercontent.com/bnfe/bm-vue/main/site/styles/images/index.png"
     alt=""
     slot="icon"
   />
@@ -85,7 +85,7 @@
   </div>
   <img
     style="width:48px;height:48px"
-    src="https://raw.githubusercontent.com/bnfe/bm-vue/main/site/styles/images/banu.png"
+    src="https://raw.githubusercontent.com/bnfe/bm-vue/main/site/styles/images/index.png"
     alt=""
     slot="icon"
   />

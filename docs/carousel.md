@@ -24,7 +24,7 @@
 
 ```html
 <bm-carousel
-  height="90vw"
+  height="60vw"
   direction="bottom"
   @changeStart="handleChangeStart"
   @changeEnd="handleChangeEnd"
@@ -90,15 +90,15 @@
 <script name="vue">
 const ITEMS = [
   {
-    url: 'https://raw.githubusercontent.com/bnfe/bm-vue/main/site/styles/images/banu.png',
+    url: 'https://raw.githubusercontent.com/bnfe/bm-vue/main/site/styles/images/index.png',
     img: '1',
   },
   {
-    url: 'https://raw.githubusercontent.com/bnfe/bm-vue/main/site/styles/images/banu.png',
+    url: 'https://raw.githubusercontent.com/bnfe/bm-vue/main/site/styles/images/index.png',
     img: '2',
   },
   {
-    url: 'https://raw.githubusercontent.com/bnfe/bm-vue/main/site/styles/images/banu.png',
+    url: 'https://raw.githubusercontent.com/bnfe/bm-vue/main/site/styles/images/index.png',
     img: '3',
   },
 ];
