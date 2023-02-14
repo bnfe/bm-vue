@@ -20,7 +20,7 @@ const md = require('markdown-it')({
       try {
         return (
           '<pre class="hljs"><code>' +
-          hljs.highlight(lang, str, true).value +
+          hljs.highlight(str, {language:lang,ignoreIllegals:true}).value +
           '</code></pre>'
         )
       } catch (__) {}

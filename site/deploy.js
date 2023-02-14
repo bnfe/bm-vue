@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import ElementUI from 'element-ui';
 import 'normalize.css';
-import 'highlight.js/styles/github-gist.css';
+import 'highlight.js/styles/github.css';
 import App from './app';
 import bmVue from '../release/lib/bm-vue.common';
 import router from './router';

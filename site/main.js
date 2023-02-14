@@ -5,7 +5,7 @@ import ElementUI from 'element-ui';
 import router from './router';
 import store from './store';
 import 'normalize.css';
-import 'highlight.js/styles/github-gist.css';
+import 'highlight.js/styles/github.css';
 import './styles/themes/element.scss';
 import './styles/index.scss';
 Vue.use(ElementUI);

@@ -100,7 +100,7 @@
     "github-markdown-css": "^2.10.0",
     "glob": "^7.1.2",
     "handlebars": "^4.0.11",
-    "highlight.js": "^9.4.0",
+    "highlight.js": "^11.7.0",
     "html-webpack-plugin": "^3.2.0",
     "husky": "^0.14.3",
     "ip": "^1.1.8",
