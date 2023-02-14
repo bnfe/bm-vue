@@ -11,10 +11,10 @@
         <ul>
           <li>
             <a
-              href="https://code.banu.cn"
+              href="https://github.com"
               target="_blank"
               rel="noopener noreferrer"
-              >GitLab</a
+              >Github</a
             >
           </li>
           <li>

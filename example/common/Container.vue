@@ -1,7 +1,7 @@
 <template lang="html">
   <div class='app-container' :style='{minHeight: windowHeight + "px"}'>
-    <a class="gitlab" href="https://code.banu.cn/" target="_blank">
-      <img :src="require('../styles/images/gitlab.png')" alt="">
+    <a class="github" href="https://github.com" target="_blank">
+      <img :src="require('../styles/images/github.png')" alt="">
     </a>
     <slot></slot>
   </div>
@@ -21,7 +21,7 @@ export default {
 
 <style lang="scss">
 .app-container{
-  .gitlab{
+  .github{
     img{
       position: absolute;
       top: 0;

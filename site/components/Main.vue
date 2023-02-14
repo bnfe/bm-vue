@@ -5,7 +5,7 @@
       <div class="description">基于 Vue 的 UI 组件库，为用户体验而生</div>
       <div class="navigation">
         <button @click="doStart">开始使用</button>
-        <button class="ghost" @click="goToGit">GitLab</button>
+        <button class="ghost" @click="goToGit">Github</button>
       </div>
     </div>
     <div class="righter">
@@ -33,8 +33,8 @@ export default {
       window.location.href = "#/documents/quick-start";
     },
     goToGit() {
-      // window.location.href = "https://code.banu.cn";
-      window.open("http://code.banu.cn", "_blank");
+      // window.location.href = "https://github.com";
+      window.open("https://github.com", "_blank");
     },
   },
 };

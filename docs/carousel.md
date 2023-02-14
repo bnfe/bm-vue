@@ -90,15 +90,15 @@
 <script name="vue">
 const ITEMS = [
   {
-    url: 'https://code.banu.cn/uploads/-/system/user/avatar/3/avatar.png',
+    url: 'https://raw.githubusercontent.com/bnfe/bm-vue/main/site/styles/images/banu.png',
     img: '1',
   },
   {
-    url: 'https://code.banu.cn/uploads/-/system/user/avatar/3/avatar.png',
+    url: 'https://raw.githubusercontent.com/bnfe/bm-vue/main/site/styles/images/banu.png',
     img: '2',
   },
   {
-    url: 'https://code.banu.cn/uploads/-/system/user/avatar/3/avatar.png',
+    url: 'https://raw.githubusercontent.com/bnfe/bm-vue/main/site/styles/images/banu.png',
     img: '3',
   },
 ];
