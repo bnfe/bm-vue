@@ -2,7 +2,7 @@
   <Container class="index-page">
     <header>
       <section class="brand">
-        <div class="brand-title">Bm vue</div>
+        <div class="brand-title">Bm Vue</div>
         <div class="brand-description">巴奴移动端组件库</div>
       </section>
     </header>

@@ -2,10 +2,10 @@
   <header>
     <div class="header-container">
       <div class="logo">
-        <a href="javascript:void();"
-          ><img alt="logo" :src="require('site/styles/images/banu.png')" /> Bm
-          Vue</a
-        >
+        <a href="javascript:void();">
+          <img alt="logo" :src="require('site/styles/images/banu.png')" />
+          Bm Vue
+        </a>
       </div>
       <nav>
         <ul>
