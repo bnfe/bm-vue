@@ -1,12 +1,12 @@
 ### Install 安装
 
 ```bash
-npm install bm-vue --save
+npm install bm-vue -S
 ```
 
 ### Import 引入
 
-- 全组件引入
+> 全组件引入
 
 ```javascript
 import Vue from "vue";
@@ -16,7 +16,7 @@ import "bm-vue/bm-vue.default.css";
 Vue.use(bmVue);
 ```
 
-- 按需引入
+> 按需引入
 
 借助`ElementUI`提供的[babel-plugin-component](https://github.com/ElementUI/babel-plugin-component)，我们可以只引入需要的组件，以达到减小项目体积的目的。
 
@@ -46,7 +46,7 @@ import { Button } from "bm-vue";
 Vue.use(Button);
 ```
 
-- 也可以通过 cdn 引入 umd 模块
+> 也可以通过 cdn 引入 umd 模块
 
 ```html
 <!DOCTYPE html>
@@ -70,7 +70,7 @@ Vue.use(Button);
 </html>
 ```
 
-### 动态修改 variables.scss 常量实现自定义主题
+### 自定义主题
 
 写入以下内容：
 
