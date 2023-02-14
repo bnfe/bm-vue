@@ -5,11 +5,8 @@
     <meta name="format-detection" content="telephone=no, email=no" />
     <title>巴奴移动端组件库</title>
     <script>
-      var CONFIG = {
-        pathname: "<%= htmlWebpackPlugin.options.pathname %>",
-      };
       if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) {
-        window.location.href = CONFIG.pathname + "demo.html";
+        window.location.href = "demo.html";
       }
     </script>
   </head>

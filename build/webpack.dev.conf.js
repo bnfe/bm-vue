@@ -44,7 +44,6 @@ module.exports = merge(baseWebpackConfig, {
       filename: 'index.html',
       template: 'site/index.html',
       favicon: 'site/styles/images/favicon.ico',
-      pathname: '/',
       chunks: ['site'],
       inject: true,
     }),

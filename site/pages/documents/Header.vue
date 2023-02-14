@@ -2,7 +2,7 @@
   <header class="header">
     <div class="header-container">
       <div class="logo">
-        <a href="/#/">
+        <a href="./">
           <img alt="logo" :src="require('site/styles/images/banu.png')" />
           Bm Vue
         </a>
