@@ -121,7 +121,13 @@ const install = function (Vue, opts = {}) { // eslint-disable-line no-unused-var
   /* istanbul ignore if */
   if (install.installed) return;
 
-  components.map(component => Vue.component(component.name, component));
+  components.forEach(function (item) {
+    if (item.install) {
+      Vue.use(item);
+    } else if (item.name) {
+      Vue.component(item.name, item);
+    }
+  });
 
   Vue.use(Loading.directive);
 

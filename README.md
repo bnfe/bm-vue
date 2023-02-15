@@ -39,11 +39,10 @@ npm install babel-plugin-component -D
 }
 ```
 
-接下来，如果你只希望引入部分组件，那么需要在 main.js 中写入以下内容：
+接下来，如果你只希望引入部分组件，那么只需要写入以下内容：
 
 ```javascript
 import { Button } from "bm-vue";
-Vue.use(Button);
 ```
 
 > 也可以通过 cdn 引入 umd 模块
