@@ -43,6 +43,7 @@ npm install babel-plugin-component -D
 
 ```javascript
 import { Button } from "@bnfe/bm-vue";
+Vue.use(Button);
 ```
 
 > 也可以通过 cdn 引入 umd 模块
@@ -69,18 +70,4 @@ import { Button } from "@bnfe/bm-vue";
     });
   </script>
 </html>
-```
-
-### 自定义主题
-
-写入以下内容：
-
-```js
-import "@bnfe/bm-vue/styles/default.scss"; // @bnfe/bm-vue组件默认函数以及variables
-import "@bnfe/bm-vue/styles/custom-variables.scss"; // 用户自定义的variables覆盖默认常量配置
-import "@bnfe/bm-vue/styles/components.scss"; // 加载组件样式
-
-import Vue from "vue";
-import bmVue from "@bnfe/bm-vue";
-Vue.use(bmVue);
 ```

@@ -1,7 +1,7 @@
 {
   "name": "@bnfe/bm-vue",
-  "version": "1.0.0",
-  "description": "bm in vue",
+  "version": "1.0.1",
+  "description": "巴奴移动端组件库",
   "tags": [
     "banu",
     "vue",
