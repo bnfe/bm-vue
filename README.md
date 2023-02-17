@@ -53,10 +53,10 @@ import { Button } from "@bnfe/bm-vue";
   <head>
     <meta charset="UTF-8" />
     <!-- import CSS -->
-    <link rel="stylesheet" href="//xxx/@bnfe/bm-vue.default.css" />
+    <link rel="stylesheet" href="//xxx/@bnfe/bm-vue/bm-vue.default.css" />
     <!-- import JS -->
     <script src="//cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
-    <script src="//xxx/@bnfe/bm-vue.umd.js"></script>
+    <script src="//xxx/@bnfe/bm-vue/bm-vue.umd.js"></script>
   </head>
   <body>
     <div id="app">
